@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "10.14.1"
+  },
   "name": "nest-asincole",
   "version": "0.0.1",
   "description": "",
