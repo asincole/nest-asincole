@@ -13,7 +13,7 @@ export class UsersController {
         if (user) {
             return user;
         } else {
-            throw new NotFoundException('User not found in our database, are you sure you have the user id correct?');
+            throw new NotFoundException('User not found in our database, are you sure you have the correct user id?');
         }
     }
 
