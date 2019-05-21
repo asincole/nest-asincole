@@ -20,9 +20,7 @@ export class UsersController {
     @Get()
     getUsers(): User[] {
         const users = this.usersService.getUsers();
-        if (users) {
-            return users;
-        } else { throw new NotFoundException('No users in our database at the moment'); }
+        return users;
     }
 
 }
